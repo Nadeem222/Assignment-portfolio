@@ -1,15 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <style>
-        h1{
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+        body {
+            margin: 80px;
+        }
+
+        h1 {
             text-align: center;
         }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 5px ;
+        }
+
+        a {
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .main-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .assig {
+            background-color: aqua;
+            width: 300px;
+            height: 100px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            margin-bottom: 0;
+            padding: 0;
+        }
+        
     </style>
 </head>
+
 <body>
     <h1>Portfolio</h1>
     <h1>HTML Assignment</h1>
@@ -19,6 +63,33 @@
     <p>
         I am Nadeem Hakeem learning Web & Mobile development from saylani here is my HTML assignment.
     </p>
-    
+    <hr>
+    <div class="main-container">
+        <div class="assig">
+            <h2><u>Assignment: 1</u></h2>
+            <a href="https://nadeem222.github.io/My-CV/" target="_blank">Folder Directory</a>
+        </div>
+        <div class="assig">
+            <h2><u>Assignment: 2</u></h2>
+            <a href="https://aldenair.netlify.app/" target="_blank">Resturant Web</a>
+        </div>
+        <div class="assig">
+            <h2><u>Assignment: 3</u></h2>
+            <a href="https://chessboard-1.netlify.app/" target="_blank">Chess Board</a>
+        </div>
+        <div class="assig">
+            <h2><u>Assignment: 4</u></h2>
+            <a href="https://html-form-saylani.netlify.app/" target="_blank">Saylani Registration Form</a>
+        </div>
+        <div class="assig">
+            <h2><u>Assignment: 5</u></h2>
+            <a href="https://youtube-clone-s.netlify.app/" target="_blank">Youtube Clone</a>
+        </div>
+        <div class="assig">
+            <h2><u>Assignment: 6</u></h2>
+            <a href="https://nadeem222.github.io/My-CV/" target="_blank">Other Assignment</a>
+        </div>
+    </div>
 </body>
+
 </html>
